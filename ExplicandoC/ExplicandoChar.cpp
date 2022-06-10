@@ -3,7 +3,7 @@
 	Name: ExplicandoChar.cpp
 	Author: Miguel fernandes Santos 
 	Date: 10/06/22 10:23
-	Description: Explicando matriz dinamica	
+	Description: Explicando Char
 	
 */
 
