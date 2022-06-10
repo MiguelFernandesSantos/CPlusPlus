@@ -10,7 +10,7 @@
 // Includes:
 # include <stdio.h> // biblioteca basica do C
 # include <string.h> // biblioteca para utilizar função para vetor de char
-# include <stdlib.h>  // biblioteca de funções gerais
+# include <stdlib.h>  // biblioteca de funções gesrais
 # include <locale.h> //necessário para usar setlocale
 
 // inicio do main:
@@ -20,10 +20,9 @@ int main(){
 	int Numeros[] = {5, 10, 3};
 	
 	
-	
 	// Laço para exibir os numeros:
-  printf("Array desordenado:\n");
-	for(int i = 0; i < 3; i++){
+        printf("Array desordenado:\n");
+	for(int i = 0; i < sizeof(Numeros) / sizeof(int); i++){
 		
 		printf("| %d |", Numeros[i]);
 		
@@ -145,8 +144,8 @@ int main(){
 	
 	
 	// Laço para exibir os numeros:
-  printf("\n\nArray ordenado:\n");
-	for(int i = 0; i < 3; i++){
+        printf("\n\nArray ordenado:\n");
+	for(int i = 0; i < sizeof(Numeros) / sizeof(int); i++){
 		
 		printf("| %d |", Numeros[i]);
 		
