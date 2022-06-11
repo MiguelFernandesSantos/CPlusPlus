@@ -2,7 +2,7 @@
 
 	Name: ExplicandoBuscaBinaria.cpp
 	Author: Miguel fernandes Santos 
-	Date: 11/06/22 12:37
+	Date: 11/06/22 13:20
 	Description: Explicando buscabinaria
 	
 */
